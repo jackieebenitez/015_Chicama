@@ -1,0 +1,66 @@
+/*header*/
+/*foto de fondo*/
+.fotogrupal{ 
+	background-image: url("../img/grupal.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	height:800px;
+}	
+/*se uso para que se bajara el menú*/
+.mrg-menu{
+	padding-top:60px;
+}
+/*tamaño de lofo*/
+.logo{
+	width:100%;
+	height:105%;
+}
+/*propiedades del botón "súmate"*/
+button{
+	border:2px;
+	background-color: #d3c134;
+	text-align: center;
+	padding:2px;
+	width:150px;
+	height:70px;
+}
+#nav{ /*se uso para separar los <li> del menú y que dejaran de ser <li>*/
+	list-style:none;
+	padding-bottom:30px;
+}
+/*hizo que <li> estuvieran en una sola linea*/
+li{
+	display:inline-block;
+	margin:5px;
+}
+/*tipografia del menú*/
+.typomenu{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color:black;
+}
+/*section*/
+/*tamaño de fotos*/
+.fotos{
+	height: 200px;
+	width: 300px;
+}
+/*margen de las fotos*/
+.mrg-fotos{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+/*footer*/
+/*fondo gris*/
+footer{
+	background-color: gray;
+	height:100px;
+}
+/*se movio el <p> del footer*/
+.p-padd{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:white;
+	margin-top:50px;
+	margin-left:30px;
+}
